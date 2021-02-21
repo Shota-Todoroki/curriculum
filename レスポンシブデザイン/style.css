@@ -1,0 +1,13 @@
+.warpper{
+  height: 1000px;
+  width:1000px
+}
+.head {
+  background-color: yellow;
+}
+.main {
+  background-color: blue;
+}
+.footer {
+  background-color: plum;
+}
