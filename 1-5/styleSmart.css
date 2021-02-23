@@ -1,0 +1,7 @@
+@media screen and (max-width: 479px) {
+  #wrapper {
+    height: 600px;
+    width: 200px;
+  }
+
+}

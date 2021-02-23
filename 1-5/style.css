@@ -1,0 +1,137 @@
+/* reset.css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  height: 450px;
+  width: 400px;
+}
+
+.header1 {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+}
+
+@media screen and (max-width: 479px) {
+  .header1 {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.header1 .header2 {
+  height: 60px;
+  width: 160px;
+  background-color: white;
+  float: right;
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media screen and (max-width: 479px) {
+  .header1 .header2 {
+    height: 160px;
+    width: 60px;
+    display: block;
+    margin-right: 70px;
+  }
+}
+
+.header1 .header2 .header3 {
+  height: 40px;
+  width: 40px;
+  background-color: #a9004b;
+  margin: 10px 10px;
+}
+
+.main {
+  height: 250px;
+  width: 400px;
+}
+
+.main::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+.main .left {
+  width: 150px;
+  height: 250px;
+  background-color: #80bfa8;
+  float: left;
+}
+
+@media screen and (max-width: 479px) {
+  .main .left {
+    height: 100px;
+    width: 200px;
+    float: none;
+  }
+}
+
+.main .right {
+  width: 250px;
+  height: 250px;
+  background-color: #8c2727;
+  float: right;
+}
+
+@media screen and (max-width: 479px) {
+  .main .right {
+    width: 200px;
+    height: 200px;
+    float: left;
+  }
+}
+
+.main .right .right-contents {
+  margin: 40px 60px 40px 40px;
+  height: 170px;
+  background-color: #8c2727;
+}
+
+@media screen and (max-width: 479px) {
+  .main .right .right-contents {
+    width: 140px;
+    margin: 20px 30px;
+  }
+}
+
+.main .right .right-contents .right1 {
+  height: 40px;
+  width: 140px;
+  border: white 5px solid;
+  background-color: #ff863f;
+}
+
+@media screen and (max-width: 479px) {
+  .main .right .right-contents .right1 {
+    width: 130px;
+  }
+}
+
+.main .right .right-contents .right1.plus {
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+}
+
+@media screen and (max-width: 479px) {
+  .footer {
+    width: 200px;
+    float: left;
+  }
+}
+/*# sourceMappingURL=style.css.map */
