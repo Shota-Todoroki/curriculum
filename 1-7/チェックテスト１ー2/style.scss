@@ -1,0 +1,60 @@
+.wrapper {
+  height: 450px;
+  width: 400px;
+
+  .header {
+    height: 100px;
+    width: 400px;
+    background-color: #141f40;
+  }
+
+  .main {
+    height: 250px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+
+    .left {
+
+      .left-top {
+        display: flex;
+        justify-content: space-between;
+
+        .top-left {
+          height: 150px;
+          width: 100px;
+          background-color: #dbd403;
+
+        }
+        .top-right {
+          .up {
+            height: 50px;
+            width: 150px;
+            background-color: #8c2727;
+          }
+          .down {
+            height: 100px;
+            width: 150px;
+            background-color: #ff9e6b;
+          }
+        }
+      }
+      .left-bottom {
+        height: 100px;
+        width: 250px;
+        background-color: #0093b7;
+      } 
+    }
+    .right {
+      height: 250px;
+      width: 150px;
+      background-color: #80bfa8;
+    }
+
+  }
+  .footer {
+    height: 100px;
+    width: 400px;
+    background-color: #d98d30;
+  }
+}
