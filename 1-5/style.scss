@@ -1,0 +1,118 @@
+$cWhite:white;
+$cRed:#8c2727;
+$cOrange:#ff863f;
+/* reset.css  */
+* {
+  margin: 0;
+  padding: 0;
+}
+#wrapper {
+  height: 450px;
+  width: 400px;
+
+}
+.header1 {
+  background-color: #141f40;
+  height: 100px;
+  width: 400px;
+    @media screen and (max-width:479px) {
+        width: 200px;
+        height: 200px;
+      }
+
+  & .header2 {
+    height: 60px;
+    width: 160px;
+    background-color: $cWhite;
+    float: right;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+
+      @media screen and (max-width:479px) {
+        height: 160px;
+        width: 60px;
+        display: block;
+        margin-right: 70px;
+      }
+    
+    & .header3 {
+      height: 40px;
+      width: 40px;
+      background-color: #a9004b;
+      margin:10px 10px ;
+    }
+  }
+}
+
+.main {
+  height: 250px;
+  width: 400px;
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+
+  & .left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+
+    @media screen and (max-width:479px) {
+      height: 100px;
+      width: 200px;
+      float: none;
+    }
+  }
+  & .right {
+    width: 250px;
+    height: 250px;
+    background-color: $cRed;
+    float: right;
+
+
+    @media screen and (max-width:479px) {
+      width: 200px;
+      height: 200px;
+      float: left;
+    }
+
+    & .right-contents {
+      margin: 40px 60px 40px 40px;
+      height: 170px;
+      background-color: $cRed;
+
+      @media screen and (max-width:479px) {
+        width: 140px;
+        margin: 20px 30px;
+       
+      }
+      & .right1 {
+        height: 40px;
+        width: 140px;
+        border: $cWhite 5px solid;
+        background-color: $cOrange;
+
+        @media screen and (max-width:479px) { 
+          width: 130px;       
+        }
+        &.plus {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+.footer {
+  width: 400px;
+  height: 100px;
+  background-color: #d98d30;
+
+  @media screen and (max-width:479px) {
+    width:200px;
+    float: left;
+  }
+
+}

@@ -26,9 +26,6 @@
   .header {
     width: 150px;
   }
-  /* .main {
-    width: 150px;
-  } */
   .left {
     width: 150px;
     float: none;
@@ -49,3 +46,4 @@
     width: 150px;
   }
 }
+
